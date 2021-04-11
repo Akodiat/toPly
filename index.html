@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ToPly</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div id="info">
+            <label for="avatar">Select a 3D mesh:</label>
+            <input type="file"
+                id="fileInput" name="fileInput"
+                accept="gltf, ply, obj">
+            <button id="loadButton">Load</button>
+			<button id="exportASCII">export ASCII ply</button>
+		</div>
+
+		<script type="module" src="main.js"></script>
+
+	</body>
+</html>
